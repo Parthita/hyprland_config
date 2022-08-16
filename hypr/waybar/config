@@ -1,5 +1,4 @@
-// Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-// Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
 //
 // Waybar config file
 {
@@ -22,7 +21,7 @@
     "fixed-center": true, 
     "ipc": true, 		
  
-    "modules-left": ["custom/menu", "cpu", "memory", "disk"],
-    
-    "modules-right": ["pulseaudio", "backlight", "network", "battery", "clock", "custom/power"],
+    "modules-left": ["custom/menu", "cpu","memory", "disk"],
+    "modules-center": ["clock","mpd","tray"],
+    "modules-right": ["pulseaudio", "backlight", "network", "battery","custom/kernel","custom/power"],
 }

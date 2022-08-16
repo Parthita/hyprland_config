@@ -1,5 +1,4 @@
-// Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-// Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
 //
 // Waybar modules configuration
 {
@@ -45,6 +44,11 @@
         "format-time": "{H}h {M}min",
         "tooltip": true,
     },
+    "custom/kernel": {
+        "format": "  {}",
+        "interval": 7200,
+        "exec": "uname -r", 
+    },
 
 	// waybar-clock
     "clock": {
@@ -65,15 +69,15 @@
            
 	// waybar-custom
     "custom/menu": {
-         "format": "",
+         "format": "",
          "tooltip": false,
-         "on-click": "$HOME/.config/hypr/scripts/menu",
+         "on-click": "bash $HOME/.config/hypr/scripts/menu",
     },
 
     "custom/power": {
          "format": "襤",
          "tooltip": false,
-         "on-click": "$HOME/.config/hypr/scripts/wlogout",
+         "on-click":"bash /home/rick/.config/hypr/scripts/wlogout",
     },
 
 	// waybar-disk
