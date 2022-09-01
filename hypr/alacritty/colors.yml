@@ -1,31 +1,30 @@
-# Colors (Hyper)
+## Colors configuration
 colors:
   # Default colors
   primary:
-    background: '#0c0b12'
+    background: '0x000000'
     foreground: '0xffffff'
   cursor:
     text: '0xF81CE5'
     cursor: '0xffffff'
 
-  # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xfe0100'
-    green:   '0x33ff00'
-    yellow:  '0xfeff00'
-    blue:    '0x0066ff'
-    magenta: '0xcc00ff'
-    cyan:    '0x00ffff'
-    white:   '0xd0d0d0'
+    black:   '#2b1b19'
+    red:     '#DC6558'
+    green:   '#AF8D71'
+    yellow:  '#DC6558'
+    blue:    '#D89575'
+    magenta: '#D8AB89'
+    cyan:    '#D9AA99'
+    white:   '#edcebc'
 
   # Bright colors
   bright:
-    black:   '0x808080'
-    red:     '0xfe0100'
-    green:   '0x33ff00'
-    yellow:  '0xfeff00'
-    blue:    '0x0066ff'
-    magenta: '0xcc00ff'
-    cyan:    '0x00ffff'
-    white:   '0xFFFFFF'
+    black:   '#a59083'
+    red:     '#DC6558'
+    green:   '#AF8D71'
+    yellow:  '#D89575'
+    blue:    '#DC6558'
+    magenta: '#D8AB89'
+    cyan:    '#D9AA99'
+    white:   '#edcebc'
