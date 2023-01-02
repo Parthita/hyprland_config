@@ -1,4 +1,3 @@
-## Colors configuration
 colors:
   # Default colors
   primary:
@@ -8,23 +7,24 @@ colors:
     text: '0xF81CE5'
     cursor: '0xffffff'
 
+  # Normal colors
   normal:
-    black:   '#2b1b19'
-    red:     '#DC6558'
-    green:   '#AF8D71'
-    yellow:  '#DC6558'
-    blue:    '#D89575'
-    magenta: '#D8AB89'
-    cyan:    '#D9AA99'
-    white:   '#edcebc'
+    black:   '#3c2146'
+    red:     '#A95BAE'
+    green:   '#9768B1'
+    yellow:  '#B665AE'
+    blue:    '#C35EB0'
+    magenta: '#CF70AF'
+    cyan:    '#E076B3'
+    white:   '#cbbbd1'
 
   # Bright colors
   bright:
-    black:   '#a59083'
-    red:     '#DC6558'
-    green:   '#AF8D71'
-    yellow:  '#D89575'
-    blue:    '#DC6558'
-    magenta: '#D8AB89'
-    cyan:    '#D9AA99'
-    white:   '#edcebc'
+    black:   '#8e8292'
+    red:     '#A95BAE'
+    green:   '#9768B1'
+    yellow:  '#B665AE'
+    blue:    '#C35EB0'
+    magenta: '#CF70AF'
+    cyan:    '#E076B3'
+    white:   '#cbbbd1'

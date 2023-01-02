@@ -190,17 +190,15 @@ window#waybar.hidden {
 #network {
     color: #c678dd
 }
-
 #network.disconnected {
     background-color: #0c0b12;
     color: #1e222a;
 }
 #custom-menu {
-	background-color: #0c0b12;
-	margin-left: 6px;
-	padding: 2px 6px;
-	font-size: 16px;
-	border-radius: 90px;
+	  background-color: #0c0b12;
+      padding: 0 12px;
+      margin: 4px 4px 4px 4px;
+      border-radius: 90px;
+      background-clip: padding-box;
 }
-
 

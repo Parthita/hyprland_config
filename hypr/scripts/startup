@@ -19,7 +19,7 @@ bash ~/.config/hypr/scripts/statusbar &
 
 # Set wallpaper
 #mpvpaper -vs -o "no-audio loop" eDP-1 /home/rick/Downloads/bg.mp4
-swaybg --image /home/rick/.config/hypr/wallpapers/roses_bush_bloom_128901_3840x2400.jpg &
+swaybg --image /home/rick/Downloads/ok.png &
 # Apply themes
 bash ~/.config/hypr/scripts/gtkthemes &
 

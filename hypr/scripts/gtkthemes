@@ -3,8 +3,8 @@
 
 ## Set GTK Themes, Icons, Cursor and Fonts
 
-THEME='Blade'
-ICONS='Zafiro-Red'
+THEME='Dracula'
+ICONS='Zafiro-Purple'
 FONT='Noto Sans 9'
 CURSOR='Qogirr'
 

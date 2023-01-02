@@ -69,15 +69,15 @@
            
 	// waybar-custom
     "custom/menu": {
-         "format": "",
+         "format": " " ,
          "tooltip": false,
-         "on-click": "bash $HOME/.config/hypr/scripts/menu",
+         "on-click": "nwggrid",
     },
 
     "custom/power": {
          "format": "襤",
          "tooltip": false,
-         "on-click":"bash /home/rick/.config/hypr/scripts/wlogout",
+         "on-click":"nwgbar",
     },
 
 	// waybar-disk

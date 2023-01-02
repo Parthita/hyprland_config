@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 
 
 
@@ -10,7 +10,7 @@ cdialog () {
 }
 
 if [[ "$1" == '--shutdown' ]]; then
-	cdialog
+	xdialog
 	if [[ "$?" == 0 ]]; then
 		systemctl poweroff
     else
@@ -43,7 +43,7 @@ elif [[ "$1" == '--suspend' ]]; then
 		exit
     fi
 elif [[ "$1" == '--logout' ]]; then
-	cdialog
+	xdialog
 	if [[ "$?" == 0 ]]; then
 		kill -9 -1
     else
