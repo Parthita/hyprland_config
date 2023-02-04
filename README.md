@@ -19,12 +19,13 @@ What are used :
 
 #community_theme
 
+<h1>JDM THEME</h1>
 
 Preview :
-![image](https://github.com/Parthita/Cyper_City_Openbox_Archcraft/blob/main/cyber-city/preview/Screenshot_2023-01-05-18-29-27_1920x1080.png)
+![image](https://github.com/Parthita/hyprland_config/blob/main/hyprland_preview/Screenshot_2023-02-04-21-41-33_6210.png)
 
 
-![image](https://github.com/Parthita/Cyper_City_Openbox_Archcraft/blob/main/cyber-city/preview/preview.png)
+![image](https://github.com/Parthita/hyprland_config/blob/main/hyprland_preview/Screenshot_2023-02-04-21-41-44_22759.png)
 
 
-![image](https://github.com/Parthita/Cyper_City_Openbox_Archcraft/blob/main/cyber-city/preview/Screenshot_2023-01-05_18-29-51.png)
+![image](https://github.com/Parthita/hyprland_config/blob/main/hyprland_preview/Screenshot_2023-02-04-21-43-25_11161.png)
