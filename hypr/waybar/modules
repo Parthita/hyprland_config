@@ -52,13 +52,11 @@
 
 	// waybar-clock
     "clock": {
-		"interval": 60,
-		"align": 0,
-		"rotate": 0,
-        //"timezone": "America/New_York",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": " {:%I:%M %p}",
-        "format-alt": " {:%a %b %d, %G}"
+		//"timezone": "America/Montreal",
+        "format-alt": "  {:%A, %B %d, %Y (%V) | %r}",
+        "format": "  {:%a, %b %d, %Y | %I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "interval": 1
     },
 
 	// waybar-cpu
@@ -75,7 +73,7 @@
     },
 
     "custom/power": {
-         "format": "襤",
+         "format":"",
          "tooltip": false,
          "on-click":"nwgbar",
     },
@@ -160,4 +158,5 @@
         "icon-size": 16,
         "spacing": 10
     }
+    
 }

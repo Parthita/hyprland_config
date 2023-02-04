@@ -16,10 +16,10 @@ bash /usr/lib/xfce-polkit/xfce-polkit &
 # Lauch statusbar (waybar)
 bash ~/.config/hypr/scripts/statusbar &
 
-
+ 
 # Set wallpaper
-#mpvpaper -vs -o "no-audio loop" eDP-1 /home/rick/Downloads/bg.mp4
-swaybg --image /home/rick/Downloads/ok.png &
+mpvpaper -o "no-audio --loop-playlist shuffle" '*' ~/.config/hypr/ok.mp4 &
+#swaybg -o \* -i /home/rick/Downloads/wallpaperflare.com_wallpaper.jpg -m fill &
 # Apply themes
 bash ~/.config/hypr/scripts/gtkthemes &
 

@@ -1,8 +1,9 @@
 * {
-  border: none;
-  font-family: JetBrains Mono,Ubuntu Nerd Font,Weather Icons,sans-serif;
-  font-size: 18.5px;
-  font-weight: bold;
+    border: none;
+    border-radius: 0;
+    font-family: 'Caskaydia Cove Nerd Font', monospace;
+    font-size: 18px;
+    min-height: 0;
 }
 
 window#waybar {
@@ -41,7 +42,7 @@ window#waybar.hidden {
 #memory,
 #disk,
 #tray {
-  background-color: #0c0b12;
+  background-color: #100514 ;
   padding: 0 12px;
   margin: 4px 4px 4px 4px;
   border-radius: 90px;
@@ -51,7 +52,7 @@ window#waybar.hidden {
 #workspaces button {
   padding: 0 5px;
   min-width: 20px;
-  color: #7aa2f7;
+  color: #bc66f2;
 }
 
 #custom-network {
@@ -76,7 +77,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-  color: #c678dd;
+  color: #bc66f2;
 }
 
 #disk {
@@ -84,7 +85,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  color: #e06c75;
+  color: #bc66f2;
 }
 
 #cpu {
@@ -119,7 +120,7 @@ window#waybar.hidden {
 
 
 #clock {
-  color: #7aa2f7;
+  color: #851dcf;
 }
 
 
@@ -172,11 +173,11 @@ window#waybar.hidden {
 }
 
 #backlight {
-  color: #7aa2f7;
+  color: #851dcf;
 }
 
 #custom-kernel {
-  color: #7aa2f7
+  color: #851dcf;
 }
 
 #battery {
@@ -195,10 +196,18 @@ window#waybar.hidden {
     color: #1e222a;
 }
 #custom-menu {
-	  background-color: #0c0b12;
+	  background-color: #100514;
       padding: 0 12px;
+      opacity : .7;
       margin: 4px 4px 4px 4px;
       border-radius: 90px;
       background-clip: padding-box;
 }
-
+#custom-power {
+      background-color: #100514;
+      padding: 0 10px;
+      opacity : .7;
+      margin: 4px 4px 4px 4px;
+      border-radius: 90px;
+      background-clip: padding-box;
+}
