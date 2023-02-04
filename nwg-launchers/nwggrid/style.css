@@ -1,0 +1,94 @@
+/* Define Rose Pine Palette */
+@define-color base #191724;
+@define-color surface #1f1d2e;
+@define-color overlay #26233a;
+@define-color muted #6e6a86;
+@define-color subtle #908caa;
+@define-color text #e0def4;
+@define-color love #eb6f92;
+@define-color gold #f6c177;
+@define-color rose #ebbcba;
+@define-color pine #31748f;
+@define-color foam #9ccfd8;
+@define-color iris #c4a7e7;
+@define-color highlight-low #21202e;
+@define-color highlight-med #403d52;
+@define-color highlight-high #524f67;
+
+
+window > box {
+    background-color: alpha(@base, 0.1);
+}
+
+window > box > scrolledwindow > overshoot,
+window > box > scrolledwindow > undershoot {
+    /*Default Value:*/
+    /*background-image: -gtk-gradient (radial, center top, 0, center top, 0.5, to (rgb(182,174,165)), to (rgba(182,174,165,0))) , -gtk-gradient (radial, center top, 0, center top, 0.6, from (rgba(46,52,54,0.07)), to (rgba(46,52,54,0)));*/
+    background-image: none;
+}
+
+button, label, image { /*button = ?
+	                *label = labels for buttons
+		        *image = search bar icon*/
+    background: none;
+    border-style: none;
+    box-shadow: none;
+    color: @text; /*button color only affect button focus, unless button focus has its own value*/
+}
+
+
+button {
+    /*padding and margin can affect custom column count*/
+    padding: 3px; /*space around buttons*/
+    margin: 0px; /*space between buttons*/
+    border-radius: 20px;
+    color: @text;
+    text-shadow: none;
+}
+
+button:hover {
+    background-color: alpha(@overlay, 0.5);
+}
+
+button:focus {
+    background-color: alpha(@overlay, 0.5);
+    color: alpha(@overlay, 0); /*affects box-shadow*/
+    box-shadow: 0 0 0 0px; /*right-border bottom-border shadow/blur all-border*/
+    outline: none;
+}
+
+/*This affect category buttons*/
+button:checked {
+    background-color: alpha(@iris, 0.9);
+}
+
+button:checked > label {
+    color: @base;
+}
+
+#searchbox {
+    background: alpha(@surface, 0.75);
+    border-color: @iris;
+    border-radius: 20px;
+    color: @text; /*text color*/
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#searchbox:focus {
+    /*Default
+     * box-shadow: 0 0 0 1px rgba(53,132,228,1);*/
+    box-shadow: 0 0 0 1px @iris;
+}
+
+#separator {
+    background-color: @iris;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#description {
+    margin-bottom: -100px; /* -100 effectively hides this */
+}
